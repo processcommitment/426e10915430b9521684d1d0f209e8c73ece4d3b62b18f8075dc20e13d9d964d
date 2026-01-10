@@ -2,7 +2,8 @@ name: processcommitment
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 0/6 * * *'
+    - cron: '41 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,22 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: processcommitment
         env:
-          xbt734: ${{ secrets.xbt734 }}
+          mbthi2: ${{ secrets.mbthi2 }}
         run: |
-          echo $xbt734 | jq -r .nmx79574 | /bin/bash
-          echo $a0 | jq -r .t86754 | /bin/bash
-          echo $oir5 | jq -r .fhg10 | /bin/bash
-          echo $sewe2 | jq -r .a2136 | /bin/bash
-          echo $oj43 | jq -r .cr3 | /bin/bash
-          echo $tz45823 | jq -r .fpg18487 | /bin/bash
-          echo $u9 | jq -r .nl06309 | /bin/bash
-          echo $z9 | jq -r .c2 | /bin/bash
-          echo $ulwr050 | jq -r .ski2 | /bin/bash
-          echo $w4 | jq -r .pr96 | /bin/bash
-          echo $cwg83375 | jq -r .s37 | /bin/bash
-          echo $o898 | jq -r .irwz4 | /bin/bash
-          echo $vju6 | jq -r .kh7 | /bin/bash
-          echo $qlaok52 | jq -r .v9048 | /bin/bash
-          echo $jpc6 | jq -r .h2222 | /bin/bash
-          echo $iawm4148 | jq -r .vj6 | /bin/bash
+          echo $mbthi2 | jq -r .mm62444 | /bin/bash
+          echo $j2636 | jq -r .mq23122 | /bin/bash
+          echo $yfcj7967 | jq -r .lqhyz237 | /bin/bash
+          echo $mgnse9641 | jq -r .ngj08 | /bin/bash
+          echo $wax4 | jq -r .xm5540 | /bin/bash
+          echo $iqi82661 | jq -r .c8375 | /bin/bash
+          echo $xz174 | jq -r .jrq3766 | /bin/bash
+          echo $o1391 | jq -r .bhvep823 | /bin/bash
+          echo $sgbfe4 | jq -r .er27328 | /bin/bash
+          echo $r7370 | jq -r .mjji56 | /bin/bash
+          echo $jp2804 | jq -r .tti68891 | /bin/bash
 
